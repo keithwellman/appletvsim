@@ -1,47 +1,55 @@
 body {
-  background-color: #CCCCCC;
+  background-color: #f3f3f3;
+}
+h1 {
+  text-align: center;
+  font-family: sans-serif;
 }
 .clear {
   clear: both;
 }
 .container {
-  width: 900px;
+  width: 950px;
   margin: auto;
-  padding-top: 40px;
 }
 .screen {
-  background-color: white;
-  width: 700px;
+  background-color: #cbcbcb;
+  width: 750px;
   height: 500px;
   float: left;
   min-height: 400px;
-
+  overflow: hidden;
+  border: 1px solid #888888;
+  border-radius: 5px;
 }
-.screen2 {
+#offset-left {
+  margin-left: -20px;
+}
+.screen2 { /*for the index-settings page */
   background-color: white;
   width: 700px;
   height: 393px;
   float: left;
   min-height: 400px;
-
 }
 
 .topscreen {
   height: 262px;
   width:100%;
-  vertical-align: top;
-
+  overflow: hidden;
+  margin-top: -10px;
 }
 #shadow {
   box-shadow: 10px 10px 5px #888888;
 }
 .bottomscreen {
-  height:200px;
+  height:190px;
   width:100%;
   padding: 10px 0 0 30px;
+
 }
 .bottomscreen img {
-  margin: 0 40px 40px 0;
+  margin: 0 32px 10px 0;
 }
 
 .remote {
